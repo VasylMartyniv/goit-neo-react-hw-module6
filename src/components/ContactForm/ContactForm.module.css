@@ -1,0 +1,36 @@
+.formWrapper {
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 10px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+
+.formInput {
+  width: 290px;
+}
+
+.formInput label,
+.formInput input {
+  width: 100%;
+}
+
+.formInput span {
+  display: block;
+  font-size: 14px;
+  color: red;
+}
+
+.button {
+  width: max-content;
+  margin: 0 auto;
+  border: 1px solid darkgray;
+  border-radius: 2px;
+}
