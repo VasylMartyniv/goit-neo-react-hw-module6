@@ -44,9 +44,4 @@ const slice = createSlice({
 export const { addContact, deleteContact } = slice.actions;
 export const { selectContacts, selectContactByIdx } = slice.selectors;
 
-const persistConfig = {
-  key: "contacts",
-  storage,
-};
-
-export default persistReducer(persistConfig, slice.reducer);
+export default slice;
